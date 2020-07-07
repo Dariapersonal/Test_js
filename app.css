@@ -1,0 +1,170 @@
+body {
+	font-size: 18px;
+}
+/*Меню*/
+.menu {
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+
+.inbox {
+	flex: 33.3%;
+	text-align: center;
+	font-weight: 700;
+	padding: 20px;
+	font-size: 24px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    transition: border-style 0.3s linear;
+ }
+
+ .inbox:hover {
+ 	border-style: solid;
+	border-color: #AFEEEE;
+	border-width: 2px;
+ }
+
+.view_email {
+	flex: 33.3%;
+	text-align: center;
+	font-weight: 700;
+	padding: 20px;
+	font-size: 28px;
+	border-left: 1px solid black;
+	border-right:  1px solid black;
+	background-color: #DCDCDC;
+}
+
+.view_email_1 {
+	background-color: #AFEEEE; 
+}
+
+.deleted_back {
+	background-color: #DEB887;
+}
+
+
+.deleted {
+	flex: 33.3%;
+	text-align: center;
+	font-weight: 700;
+	padding: 20px;
+	font-size: 24px;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    transition: border-style 0.3s linear;   
+}
+
+.deleted:hover {
+ 	border-style: solid;
+	border-color: #DEB887;
+	border-width: 2px;
+}
+
+/*Главная секция и Секция удаления*/
+
+
+.main_section_del{
+	display: none;
+}
+
+.deleted_section_del {
+	display: none;
+}
+
+.mails {
+	width: 1200px;
+    margin: 0 auto;
+	display: flex;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	border-top: none;
+}
+
+.mail {
+	flex: 80%;
+	text-align: center;
+	padding: 20px;
+}
+
+.pic_mail {
+	flex:10%;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	padding: 20px;
+	background-image: url(./img/mail.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	background-color: white;
+	transition: border-style 0.3s linear;  
+}
+
+.pic_mail:hover {
+ 	border-style: solid;
+	border-color: #696969;
+	border-width: 2px;
+ }
+
+
+.pic_del {
+	flex:10%;
+	padding: 20px;
+	background-image: url(./img/del.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	background-color: white;
+	transition: border-style 0.3s linear;
+}
+
+.pic_del:hover {
+ 	border-style: solid;
+	border-color: #FF4500;
+	border-width: 2px;
+ }
+
+.mail_del {
+	flex: 90%;
+	text-align: center;
+	padding: 20px;
+}
+
+.pic_rest {
+	flex:10%;
+	padding: 20px;
+	background-image: url(./img/restor.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	background-color: white;
+	transition: border-style 0.3s linear;
+}
+
+.pic_rest:hover {
+ 	border-style: solid;
+	border-color: #696969;
+	border-width: 2px;
+ }
+
+.pic_mail_back {
+	flex:10%;
+	padding: 20px;
+	background-image: url(./img/return.png);
+	background-repeat: no-repeat;
+	background-size: 50%;
+	background-position: center;
+	background-color: white;
+	transition: border-style 0.3s linear;
+}
+
+.pic_mail_back:hover {
+ 	border-style: solid;
+	border-color: #696969;
+	border-width: 2px;
+ }
